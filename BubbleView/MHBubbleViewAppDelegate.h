@@ -8,14 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@class BubbleViewViewController;
+@class MHBubbleViewViewController;
 
-@interface BubbleViewAppDelegate : NSObject <UIApplicationDelegate> {
+@interface MHBubbleViewAppDelegate : NSObject <UIApplicationDelegate> {
 
 }
 
 @property (nonatomic, strong) IBOutlet UIWindow *window;
 
-@property (nonatomic, strong) IBOutlet BubbleViewViewController *viewController;
+@property (nonatomic, strong) IBOutlet MHBubbleViewViewController *viewController;
 
 @end

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface DrawnBubbleView : UIView {
+@interface MHDrawnBubbleView : UIView {
 
 @private
     CGRect _activationFrame;

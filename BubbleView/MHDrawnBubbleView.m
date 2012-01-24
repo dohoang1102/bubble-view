@@ -6,7 +6,7 @@
 //  Copyright 2011 Mikael Hallendal. All rights reserved.
 //
 
-#import "DrawnBubbleView.h"
+#import "MHDrawnBubbleView.h"
 #import <QuartzCore/QuartzCore.h>
 
 #define HORIZONTAL_PADDING 10
@@ -31,7 +31,7 @@ clamp(CGFloat value, CGFloat minValue, CGFloat maxValue)
     return value;
 }
 
-@implementation DrawnBubbleView
+@implementation MHDrawnBubbleView
 @synthesize gradientStartColor = _gradientStartColor;
 @synthesize gradientEndColor = _gradientEndColor;
 @synthesize borderColor = _borderColor;

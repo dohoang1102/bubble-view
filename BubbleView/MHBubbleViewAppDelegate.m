@@ -6,11 +6,11 @@
 //  Copyright 2011 Mikael Hallendal. All rights reserved.
 //
 
-#import "BubbleViewAppDelegate.h"
+#import "MHBubbleViewAppDelegate.h"
 
-#import "BubbleViewViewController.h"
+#import "MHBubbleViewViewController.h"
 
-@implementation BubbleViewAppDelegate
+@implementation MHBubbleViewAppDelegate
 
 
 @synthesize window=_window;

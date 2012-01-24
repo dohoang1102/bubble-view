@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface ImageBubbleView : UIView {
+@interface MHImageBubbleView : UIView {
     
 }
 

@@ -6,10 +6,10 @@
 //  Copyright 2011 Mikael Hallendal. All rights reserved.
 //
 
-#import "BubbleViewViewController.h"
-#import "DrawnBubbleView.h"
+#import "MHBubbleViewViewController.h"
+#import "MHDrawnBubbleView.h"
 
-@implementation BubbleViewViewController
+@implementation MHBubbleViewViewController
 
 
 - (void)didReceiveMemoryWarning
@@ -52,7 +52,7 @@
 
 - (void)showBubbleViewWithActivationFrame:(CGRect)activationFrame
 {
-    currentBubbleView = [[DrawnBubbleView alloc] initWithHeight:150
+    currentBubbleView = [[MHDrawnBubbleView alloc] initWithHeight:150
                                                 activationFrame:activationFrame];
 
     currentBubbleView.alpha = 0.0;

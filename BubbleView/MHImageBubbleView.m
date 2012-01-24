@@ -6,11 +6,11 @@
 //  Copyright 2011 Mikael Hallendal. All rights reserved.
 //
 
-#import "ImageBubbleView.h"
+#import "MHImageBubbleView.h"
 #import <QuartzCore/QuartzCore.h>
 
 
-@implementation ImageBubbleView
+@implementation MHImageBubbleView
 
 - (UIImage *)bubbleImage
 {

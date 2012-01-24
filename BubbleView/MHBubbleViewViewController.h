@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BubbleViewViewController : UIViewController {
+@interface MHBubbleViewViewController : UIViewController {
 @private
     UIView *currentBubbleView;
 }
