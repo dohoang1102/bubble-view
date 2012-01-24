@@ -190,13 +190,5 @@ clamp(CGFloat value, CGFloat minValue, CGFloat maxValue)
     return [self initWithFrame:frame activationFrame:activationFrame];
 }
 
-- (void)dealloc
-{
-    self.borderColor = nil;
-    self.gradientStartColor = nil;
-    self.gradientEndColor = nil;
-    
-    [super dealloc];
-}
 
 @end

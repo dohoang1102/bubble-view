@@ -11,10 +11,6 @@
 
 @implementation BubbleViewViewController
 
-- (void)dealloc
-{
-    [super dealloc];
-}
 
 - (void)didReceiveMemoryWarning
 {
@@ -79,7 +75,6 @@
                          completion:^(BOOL finished){
                              //self.contentView.layer.shouldRasterize = NO;
                              [currentBubbleView removeFromSuperview];
-                             [currentBubbleView release];
                              [self showBubbleViewWithActivationFrame:((UIView *)sender).frame];
                          }
          ];

@@ -14,9 +14,9 @@
 @private
     CGRect _activationFrame;
 }
-@property(nonatomic, retain) UIColor *gradientStartColor;
-@property(nonatomic, retain) UIColor *gradientEndColor;
-@property(nonatomic, retain) UIColor *borderColor;
+@property(nonatomic, strong) UIColor *gradientStartColor;
+@property(nonatomic, strong) UIColor *gradientEndColor;
+@property(nonatomic, strong) UIColor *borderColor;
 
 - (id)initWithFrame:(CGRect)frame activationFrame:(CGRect)activationFrame;
 - (id)initWithHeight:(CGFloat)height activationFrame:(CGRect)activationFrame;
