@@ -39,7 +39,7 @@
 		40401D88130ED39600D9CADE /* MHBubbleViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHBubbleViewAppDelegate.h; sourceTree = "<group>"; };
 		40401D89130ED39600D9CADE /* MHBubbleViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHBubbleViewAppDelegate.m; sourceTree = "<group>"; };
 		40401D8C130ED39600D9CADE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		40401D8E130ED39600D9CADE /* MHBubbleViewViewController.h */ = {isa = PBXFileReference; path = MHBubbleViewViewController.h; sourceTree = "<group>"; };
+		40401D8E130ED39600D9CADE /* MHBubbleViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHBubbleViewViewController.h; sourceTree = "<group>"; };
 		40401D8F130ED39600D9CADE /* MHBubbleViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHBubbleViewViewController.m; sourceTree = "<group>"; };
 		40401D92130ED39600D9CADE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MHBubbleViewViewController.xib; sourceTree = "<group>"; };
 		40401DA6130EE0DE00D9CADE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -144,6 +144,7 @@
 		40401D6C130ED39600D9CADE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Mikael Hallendal";
 			};
 			buildConfigurationList = 40401D6F130ED39600D9CADE /* Build configuration list for PBXProject "BubbleView" */;
