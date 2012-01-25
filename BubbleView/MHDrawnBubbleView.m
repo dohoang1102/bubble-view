@@ -17,7 +17,7 @@
 #define CORNER_RADIUS 10
 #define ACTIVATION_PADDING 0
 
-CGFloat 
+static CGFloat 
 clamp(CGFloat value, CGFloat minValue, CGFloat maxValue) 
 {
     if (value < minValue) {
@@ -160,8 +160,6 @@ clamp(CGFloat value, CGFloat minValue, CGFloat maxValue)
     self.borderColor = [UIColor colorWithRed:0.15 green:0.15 blue:0.15 alpha:1.0];
     self.gradientStartColor = [UIColor grayColor];
     self.gradientEndColor = [UIColor blackColor];
-    
-    [self.layer addSublayer:[self bubbleLayer]];   
 }
 
 - (id)initWithFrame:(CGRect)frame activationFrame:(CGRect)activationFrame
@@ -190,5 +188,8 @@ clamp(CGFloat value, CGFloat minValue, CGFloat maxValue)
     return [self initWithFrame:frame activationFrame:activationFrame];
 }
 
+- (void)willMoveToSuperview:(UIView *)newSuperview {
+    [self.layer addSublayer:[self bubbleLayer]];    
+}
 
 @end
